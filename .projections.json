@@ -1,0 +1,32 @@
+{
+    "app/initializers/*.js": {
+        "type": "initializer"
+    },
+    "app/models/*.js": {
+        "type": "model"
+    },
+    "app/machines/*.js": {
+        "type": "machine"
+    },
+    "app/serializers/*.js": {
+        "type": "serializer"
+    },
+    "app/services/*.js": {
+        "type": "service"
+    },
+    "app/adapters/*.js": {
+        "type": "adapter"
+    },
+    "app/components/*.js": {
+        "type": "component"
+    },
+    "app/controllers/*.js": {
+        "type": "controller"
+    },
+    "app/*.hbs": {
+        "type": "template"
+    },
+    "tests/*.js": {
+        "type": "test"
+    }
+}
