@@ -19,14 +19,26 @@ export default function () {
 
     https://www.ember-cli-mirage.com/docs/route-handlers/shorthands
   */
-  this.get('/categories');
-  // this.get('/categories', () => {
-  //   return {
-  //     data: [
-  //       { id: 1, type: 'categories', attributes: { name: 'Interstellar' } },
-  //       { id: 2, type: 'categories', attributes: { name: 'Inception' } },
-  //       { id: 3, type: 'categories', attributes: { name: 'Dunkirk' } },
-  //     ],
-  //   };
-  // });
+  // this.get('/categories');
+  this.get('/categories', () => {
+    return {
+      data: [
+        {
+          id: 1,
+          type: 'categories',
+          attributes: { name: 'Interstellar' },
+        },
+        {
+          id: 2,
+          type: 'categories',
+          attributes: { name: 'Inception' },
+        },
+        {
+          id: 3,
+          type: 'categories',
+          attributes: { name: 'Dunkirk' },
+        },
+      ],
+    };
+  });
 }

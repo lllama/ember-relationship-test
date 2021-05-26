@@ -4,9 +4,9 @@
 <h1>Categories</h1>
 {{#each this.categories as |category| }}
   <button type="button" {{on 'click' (fn this.getSkills category)}}>Get Skills for {{category.name}}</button><br/>
-  {{#each category.skills as |skill| }}
-    {{skill.name}}
-  {{/each}}
+  {{!-- {{#each category.skills as |skill| }} --}}
+  {{!--   {{skill.name}} --}}
+  {{!-- {{/each}} --}}
 {{/each}}
 
 {{outlet}}
